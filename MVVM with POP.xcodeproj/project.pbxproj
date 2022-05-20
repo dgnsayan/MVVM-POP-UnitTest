@@ -13,6 +13,9 @@
 		4F2CD0ED2836B7E90071D8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2CD0EC2836B7E90071D8A5 /* Assets.xcassets */; };
 		4F2CD0F02836B7E90071D8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2CD0EE2836B7E90071D8A5 /* LaunchScreen.storyboard */; };
 		4FFD0B4A2836DDCB00A86A82 /* MVVM_with_POPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD0B492836DDCB00A86A82 /* MVVM_with_POPTests.swift */; };
+		4FFD0B532837B26700A86A82 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD0B522837B26700A86A82 /* RootViewController.swift */; };
+		4FFD0B552837B31300A86A82 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD0B542837B31300A86A82 /* LoginViewController.swift */; };
+		4FFD0B572837C18C00A86A82 /* RootViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD0B562837C18C00A86A82 /* RootViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 		4F2CD0F12836B7E90071D8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FFD0B472836DDCB00A86A82 /* MVVM with POPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM with POPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFD0B492836DDCB00A86A82 /* MVVM_with_POPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_with_POPTests.swift; sourceTree = "<group>"; };
+		4FFD0B522837B26700A86A82 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4FFD0B542837B31300A86A82 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4FFD0B562837C18C00A86A82 /* RootViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 				4F2CD0E32836B7E80071D8A5 /* AppDelegate.swift */,
 				4F2CD0E52836B7E80071D8A5 /* SceneDelegate.swift */,
 				4F2CD0E72836B7E80071D8A5 /* UserViewController.swift */,
+				4FFD0B522837B26700A86A82 /* RootViewController.swift */,
+				4FFD0B542837B31300A86A82 /* LoginViewController.swift */,
 				4F2CD0EC2836B7E90071D8A5 /* Assets.xcassets */,
 				4F2CD0EE2836B7E90071D8A5 /* LaunchScreen.storyboard */,
 				4F2CD0F12836B7E90071D8A5 /* Info.plist */,
@@ -90,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4FFD0B492836DDCB00A86A82 /* MVVM_with_POPTests.swift */,
+				4FFD0B562837C18C00A86A82 /* RootViewModelTest.swift */,
 			);
 			path = "MVVM with POPTests";
 			sourceTree = "<group>";
@@ -196,6 +205,8 @@
 			files = (
 				4F2CD0E82836B7E80071D8A5 /* UserViewController.swift in Sources */,
 				4F2CD0E42836B7E80071D8A5 /* AppDelegate.swift in Sources */,
+				4FFD0B532837B26700A86A82 /* RootViewController.swift in Sources */,
+				4FFD0B552837B31300A86A82 /* LoginViewController.swift in Sources */,
 				4F2CD0E62836B7E80071D8A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFD0B572837C18C00A86A82 /* RootViewModelTest.swift in Sources */,
 				4FFD0B4A2836DDCB00A86A82 /* MVVM_with_POPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

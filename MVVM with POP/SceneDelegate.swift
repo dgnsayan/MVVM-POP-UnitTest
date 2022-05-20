@@ -19,8 +19,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
         let userService:UserService = APIManager()
-        let viewModel = UserViewModel(userService: userService)
-        window?.rootViewController = UserViewController(viewModel: viewModel)
+        let loginStorageService:LoginStorageService = StorageManager()
+        let viewModel = RootViewModel(loginStorageService: loginStorageService, userService: userService)
+        let rootViewController = RootViewController(viewModel: viewModel)
+        window?.rootViewController = UINavigationController(rootViewController: rootViewController)
         window?.makeKeyAndVisible()
     }
 
